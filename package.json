@@ -1,0 +1,14 @@
+{
+  "name": "simple-video-streaming",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0"
+  }
+}
