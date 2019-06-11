@@ -2,5 +2,18 @@
 
 ## Install
 - `npm i`
-- `npm start` (use `sudo` since the port is set to 80, or change to a port over 1024)
-- Open browser and go to `localhost`
+
+## Config
+- The app requires an `env.json` file for Facebook login as follows:
+```
+{
+    "FACEBOOK_APP_ID": <your-facebook-app-id>,
+    "FACEBOOK_APP_SECRET": <your-facebook-app-secret>,
+    "PORT": 3000,
+    "ROOT_URL": "http://localhost:3000"
+}
+```
+
+## Run & Dev
+- `npm start`
+- Open browser and go to `localhost:3000`

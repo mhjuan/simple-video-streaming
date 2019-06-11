@@ -46,3 +46,7 @@ player.src([
     selected: true,
   },
 ]);
+
+player.height(player.currentWidth() / 16 * 9);
+
+window.onresize = () => player.height(player.currentWidth() / 16 * 9);
